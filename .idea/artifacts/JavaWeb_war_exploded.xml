@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="library" level="project" name="Tomcat 8" />
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web4" />
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web2" />
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web3" />
+    </root>
+  </artifact>
+</component>
