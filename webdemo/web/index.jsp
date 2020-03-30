@@ -25,5 +25,6 @@
 <a href="chap3/zhuti.jsp">include指令</a><br>
 <a href="chap3/zhuti1.jsp">include动作</a><br>
 <a href="chap3/forward.jsp">forward和param动作</a><br>
+<a href="chap4/ZhuCe.jsp">forward和param动作</a><br>
 </body>
 </html>
