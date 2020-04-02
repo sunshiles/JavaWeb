@@ -1,4 +1,4 @@
-<%--
+<%@ page import="javax.naming.Name" %><%--
   Created by IntelliJ IDEA.
   User: yinhaoyu
   Date: 2020/3/31
@@ -12,15 +12,25 @@
 </head>
 <body>
 <%
-    request.setAttribute("nameDemo","testName");
+    //传递属性到请求头
+    request.setAttribute("nameDemo", "testName");
     request.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
     String password = request.getParameter("password");
     if ("admin".equals(name) && "123".equals(password)) {
+        //第一步创建cookie对象
+        Cookie cookie1 = new Cookie("name", name);
+        Cookie cookie2 = new Cookie("password", password);
+        //第二步设置cookie的有效期
+        cookie1.setMaxAge(60 * 60 * 24);
+        cookie2.setMaxAge(60 * 60 * 24);
+        //第三步向客户端添加cookie信息
+        response.addCookie(cookie1);
+        response.addCookie(cookie2);
 %>
 <jsp:forward page="Result.jsp"></jsp:forward>
 <%
-    }else {
+    } else {
         response.sendRedirect("Failure.jsp");
     }
 %>

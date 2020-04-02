@@ -12,7 +12,7 @@
 </head>
 <body>
 <%
-    String nameDemo = (String)request.getAttribute("nameDemo");
+    String nameDemo = (String) request.getAttribute("nameDemo");
     String name = request.getParameter("name");
     String password = request.getParameter("password");
     String sex = request.getParameter("sex");
