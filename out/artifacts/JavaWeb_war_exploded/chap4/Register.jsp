@@ -40,7 +40,7 @@ password值直接传递给Check.jsp,缺点是不安全--%>
         <option value="党员">党员</option>
         <option value="共青团员">共青团员</option>
     </select>
-    //设置隐藏域
+    <%--设置隐藏域--%>
     <input type="hidden" name="price" value="179"><br>
     <input type="submit">
     <input type="button" value="取消"><br>

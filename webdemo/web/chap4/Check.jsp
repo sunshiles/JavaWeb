@@ -27,6 +27,8 @@
         //第三步向客户端添加cookie信息
         response.addCookie(cookie1);
         response.addCookie(cookie2);
+        //设置session.setAttribute()
+        session.setAttribute("sessionName",name);
 %>
 <jsp:forward page="Result.jsp"></jsp:forward>
 <%

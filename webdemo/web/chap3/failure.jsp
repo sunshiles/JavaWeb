@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-用户名密码错误，<a href="zhuti.jsp">请重新登录</a>
+用户名密码错误，<a href="Login.jsp">请重新登录</a>
 </body>
 </html>

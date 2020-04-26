@@ -19,7 +19,9 @@
     String[] hobby = request.getParameterValues("hobby");
     String politicsStatus = request.getParameter("politicsStatus");
     String price = request.getParameter("price");
+    String sessionName = (String) session.getAttribute("sessionName");
 %>
+欢迎<%=sessionName%>登录商城！<a href="SessionAllTest.jsp">测试session</a><br>
 用户注册的信息：<br>
 测试request.getAttribute：<%=nameDemo%><br>
 用户名：<%=name%><br>
@@ -33,6 +35,7 @@
 %>
 <%=sum%><br>
 政治面貌：<%=politicsStatus%><br>
-价格：<%=price%>
+价格：<%=price%><br>
+<a href="../index.jsp">返回首页</a>
 </body>
 </html>
