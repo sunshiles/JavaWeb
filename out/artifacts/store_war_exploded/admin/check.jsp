@@ -33,7 +33,6 @@
 %>
 <jsp:forward page="index.jsp"></jsp:forward>
 <%
-        userDao.close();
     } else {
         response.sendRedirect("Failure.jsp");
     }
