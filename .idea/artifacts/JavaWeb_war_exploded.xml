@@ -5,6 +5,9 @@
       <element id="javaee-facet-resources" facet="JavaWeb/web/Web3" />
       <element id="library" level="project" name="servlet-api" />
       <element id="dir-copy" path="$PROJECT_DIR$/webdemo/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib" />
+      </element>
     </root>
   </artifact>
 </component>

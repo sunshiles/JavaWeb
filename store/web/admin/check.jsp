@@ -1,4 +1,7 @@
-<%@ page import="com.whc.dao.UserDao" %><%--
+<%@ page import="com.whc.dao.UserDao" %>
+<%@ page import="com.whc.factory.DaoFactory" %>
+<%@ page import="com.whc.entity.User" %>
+<%--
   Created by IntelliJ IDEA.
   User: yinhaoyu
   Date: 2020/4/15
@@ -12,14 +15,17 @@
 </head>
 <body>
 <%
-    String name = request.getParameter("name");
+    String userName = request.getParameter("name");
     String password = request.getParameter("password");
-    UserDao userDao = new UserDao();
-    boolean isTrue = userDao.login(name, password);
+    UserDao userDao = DaoFactory.getUserDao();
+    User user = new User();
+    user.setUserName(userName);
+    user.setPassword(password);
+    boolean isTrue = userDao.login(user.getUserName(), user.getPassword());
     if (isTrue) {
         //第一步创建cookie对象
-        Cookie cookie1 = new Cookie("name", name);
-        Cookie cookie2 = new Cookie("password", password);
+        Cookie cookie1 = new Cookie("name", user.getUserName());
+        Cookie cookie2 = new Cookie("password", user.getPassword());
         //第二步设置cookie的有效期
         cookie1.setMaxAge(60 * 60 * 24);
         cookie2.setMaxAge(60 * 60 * 24);
@@ -28,12 +34,12 @@
         response.addCookie(cookie2);
         session.setMaxInactiveInterval(60 * 60 * 24);
         //设置session.setAttribute()
-        session.setAttribute("sessionName", name);
+        session.setAttribute("sessionName", user.getUserName());
 %>
 <jsp:forward page="index.jsp"></jsp:forward>
 <%
     } else {
-        response.sendRedirect("Failure.jsp");
+        response.sendRedirect("failure.jsp");
     }
 %>
 </body>

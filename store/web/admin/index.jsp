@@ -7,7 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+
+            "://"+request.getServerName()+
+            ":"+request.getServerPort()+path+"/admin/";
+%>
 <head>
+    <base href="<%=basePath %>">
     <title>后台管理中心</title>
     <link rel="stylesheet" href="css/pintuer.css">
     <link rel="stylesheet" href="css/admin.css">
@@ -20,40 +27,40 @@
     </div>
     <div class="head-l"><a class="button button-little bg-green" href="" target="_blank"><span class="icon-home"></span>
         前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span>
-        当前用户<%=session.getAttribute("sessionName")%>
+        当前用户<%=session.getAttribute("username")%>
     </a> &nbsp;&nbsp;<a class="button button-little bg-red" href="login.html"><span
             class="icon-power-off"></span> 退出登录</a></div>
 </div>
 <div class="leftnav">
     <div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
-    <h2><span class="icon-user"></span>基本设置</h2>
-    <ul style="display:block">
-        <li><a href="info.html" target="right"><span class="icon-caret-right"></span>网站设置</a></li>
-        <li><a href="pass.html" target="right"><span class="icon-caret-right"></span>修改密码</a></li>
-        <li><a href="page.html" target="right"><span class="icon-caret-right"></span>单页管理</a></li>
-        <li><a href="adv.html" target="right"><span class="icon-caret-right"></span>首页轮播</a></li>
-        <li><a href="book.html" target="right"><span class="icon-caret-right"></span>留言管理</a></li>
-        <li><a href="column.html" target="right"><span class="icon-caret-right"></span>栏目管理</a></li>
-    </ul>
+<%--    <h2><span class="icon-user"></span>基本设置</h2>--%>
+<%--    <ul style="display:block">--%>
+<%--        <li><a href="info.html" target="right"><span class="icon-caret-right"></span>网站设置</a></li>--%>
+<%--        <li><a href="pass.html" target="right"><span class="icon-caret-right"></span>修改密码</a></li>--%>
+<%--        <li><a href="page.html" target="right"><span class="icon-caret-right"></span>单页管理</a></li>--%>
+<%--        <li><a href="adv.html" target="right"><span class="icon-caret-right"></span>首页轮播</a></li>--%>
+<%--        <li><a href="book.html" target="right"><span class="icon-caret-right"></span>留言管理</a></li>--%>
+<%--        <li><a href="column.html" target="right"><span class="icon-caret-right"></span>栏目管理</a></li>--%>
+<%--    </ul>--%>
     <h2><span class="icon-pencil-square-o"></span>用户管理</h2>
     <ul>
-        <li><a href="list.html" target="right"><span class="icon-caret-right"></span>用户管理</a></li>
+        <li><a href="../UserServlet?operate=queryByPage&currentPage=1" target="right"><span class="icon-caret-right"></span>用户管理</a></li>
         <li><a href="addUser.jsp" target="right"><span class="icon-caret-right"></span>添加用户</a></li>
-        <li><a href="cate.html" target="right"><span class="icon-caret-right"></span>修改密码</a></li>
+        <li><a href="updatePass.jsp" target="right"><span class="icon-caret-right"></span>修改密码</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>商品管理</h2>
     <ul>
-        <li><a href="list.html" target="right"><span class="icon-caret-right"></span>商品管理</a></li>
-        <li><a href="addUser.jsp" target="right"><span class="icon-caret-right"></span>添加商品</a></li>
+        <li><a href="../ProductServlet?operate=queryProByPage&currentPage=1" target="right"><span class="icon-caret-right"></span>商品管理</a></li>
+        <li><a href="addProduct.jsp" target="right"><span class="icon-caret-right"></span>添加商品</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>会员管理</h2>
     <ul>
-        <li><a href="list.html" target="right"><span class="icon-caret-right"></span>会员管理</a></li>
-        <li><a href="addUser.jsp" target="right"><span class="icon-caret-right"></span>添加会员</a></li>
+        <li><a href="../RealUserServlet?operate=queryByPage&currentPage=1" target="right"><span class="icon-caret-right"></span>会员管理</a></li>
+        <li><a href="addRealUser.jsp" target="right"><span class="icon-caret-right"></span>添加会员</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>订单管理</h2>
     <ul>
-        <li><a href="list.html" target="right"><span class="icon-caret-right"></span>订单管理</a></li>
+        <li><a href="../OrderServlet?operate=queryByPage&currentPage=1" target="right"><span class="icon-caret-right"></span>订单管理</a></li>
     </ul>
 </div>
 <script type="text/javascript">

@@ -17,6 +17,7 @@
 <body>
 <%
     request.setCharacterEncoding("UTF-8");
+
     Cookie[] cookies=request.getCookies();
     String name = "";
     String password = "";
@@ -30,6 +31,7 @@
             }
         }
     }
+//    session.setAttribute("name",name);
 %>
 <div class="bg"></div>
 <div class="container">
@@ -38,7 +40,7 @@
             <div style="height:150px;"></div>
             <div class="media media-y margin-big-bottom">
             </div>
-            <form action="check.jsp" method="post">
+            <form action="../UserServlet?operate=login" method="post">
                 <div class="panel loginbox">
                     <div class="text-center margin-big padding-big-top"><h1>后台管理中心</h1></div>
                     <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
@@ -51,7 +53,7 @@
                         </div>
                         <div class="form-group">
                             <div class="field field-icon-right">
-                                <input type="password" class="input input-big" name="password" value="<%=password%> placeholder="登录密码"
+                                <input type="password" class="input input-big" name="password" value="<%=password%>" placeholder="登录密码"
                                        data-validate="required:请填写密码"/>
                                 <span class="icon icon-key margin-small"></span>
                             </div>

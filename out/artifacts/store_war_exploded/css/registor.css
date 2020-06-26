@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.width1000 {
+  width: 1000px;
+  margin: 0 auto; }
+
+.width1200 {
+  width: 1200px;
+  margin: 0 auto; }
+
+section {
+  width: 100%; }
+
+.login_header .header_mid {
+  margin-top: 30px;
+  margin-bottom: 19px; }
+.login_header .header_mid .logo {
+  float: left;
+  width: 74px;
+  margin-right: 7px; }
+.login_header .header_mid .header_right {
+  float: right;
+  position: relative;
+  margin-top: 19px;
+  z-index: 3; }
+
+img {
+  border: 0 none;
+  vertical-align: top; }
+
+.login_l {
+  float: left;
+  width: 600px;
+  text-align: center;
+  padding-top: 50px; }
+
+.login_r {
+  float: left;
+  width: 367px;
+  height: 500px;
+  background: url(../img/login_icon_list.png) 0 -115px no-repeat; }
+
+.login_r_all {
+  padding: 0 33px; }
+
+.login_r_t {
+  padding-top: 23px;
+  padding-bottom: 26px; }
+.login_r_t h2 {
+  color: #F11D20;
+  font-size: 22px;
+  height: 38px;
+  line-height: 38px;
+  font-weight: bold;
+  float: left; }
+.login_r_t div {
+  float: right;
+  height: 38px;
+  line-height: 38px; }
+.login_r_t div a {
+  color: #c41f3a; }
+
+.login_r_b .item {
+  margin-bottom: 10px;
+  position: relative; }
+
+.item .text {
+  color: #333333;
+  border: 1px solid #c8c8c8;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 6px;
+  width: 293px;
+  font-size: 12px;
+  padding: 7px 0 7px 6px; }
+
+.item .yzm {
+  width: 157px; }
+
+.error {
+  height: 32px;
+  line-height: 32px;
+  color: red; }
+
+.login_btn input {
+  display: block;
+  width: 310px;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  background: #F11D20;
+  text-align: center;
+  font-size: 14px;
+  font-family: "宋体";
+  font-weight: bold;
+  outline: none; }
+
+.agree {
+  padding-top: 5px; }
+.agree lable {
+  color: #767676;
+  padding-left: 6px; }
+.agree lable a {
+  color: #c41f3a; }
+
+.login_footer {
+  background-color: #fff;
+  margin-top: 25px;
+  overflow: hidden; }
+.login_footer p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "宋体";
+  color: #7e7e7e;
+  line-height: 25px; }
+.login_footer .footer_p {
+  padding: 30px 0 40px 0; }
+
+/*# sourceMappingURL=registor.css.map */

@@ -26,19 +26,22 @@ public class DBConn {
     }
 
     /**
-     * 关闭数据库连接
+     * 关闭数据库查询连接
      */
     public static void close(Connection con, PreparedStatement preparedStatement, ResultSet resultSet) {
-        try {
-            preparedStatement.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
+        if (preparedStatement != null) {
+            try {
+                preparedStatement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
-
-        try {
-            resultSet.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
+        if (resultSet != null) {
+            try {
+                resultSet.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         try {
             con.close();
@@ -46,6 +49,10 @@ public class DBConn {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 关闭数据库更新连接
+     */
     public static void close(Connection con, PreparedStatement preparedStatement) {
         try {
             preparedStatement.close();

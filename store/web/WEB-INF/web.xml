@@ -3,4 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!--    <servlet>-->
+    <!--        <servlet-name>HelloServlet</servlet-name>-->
+    <!--        <servlet-class>com.whc.servlet.HelloServlet</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>HelloServlet</servlet-name>-->
+    <!--        <url-pattern>HelloServlet</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <filter>
+        <filter-name>huiYuanFilter</filter-name>
+        <filter-class>com.whc.filter.HuiYuanFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>huiYuanFilter</filter-name>
+        <url-pattern>/buy/*</url-pattern>
+    </filter-mapping>
 </web-app>
