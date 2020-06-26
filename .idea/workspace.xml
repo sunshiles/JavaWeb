@@ -6,129 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf618123-2c43-4ecc-8f12-e621234b679f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/CartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/IndentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/RealUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/impl/CartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/impl/IndentDaoImple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/impl/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/impl/RealUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/Indent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/IndentDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/RealUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/factory/DaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/filter/HuiYuanFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/servlet/CartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/servlet/IndentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/servlet/OrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/servlet/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/servlet/RealUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/servlet/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/com/whc/test/TestUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/WEB-INF/lib/jsmartcom_zh_CN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/addRealUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/listOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/listProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/listRealUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/listUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/updatePass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/updateProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/admin/updateUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/buy/IndentList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/buy/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/cart.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/details.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/login.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/registor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/registor.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/css/reset2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/files/Upload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/files/doDownload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/files/doUpload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/files/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/brand_bottom_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/detail_icon_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/down_app_ewm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/down_load_20160411.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/footer_ewm_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/footer_ewm_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/footer_shuidi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/icon_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/icon_wechat_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/jh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/login_icon_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/login_r1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/order_icon_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/img/search_fixed_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/public_html/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/public_html/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/public_html/login_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/public_html/login_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/public_html/right_fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/registor.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/cart1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/js/registor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/thirdplugins/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/thirdplugins/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/thirdplugins/jquery.lazyload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/thirdplugins/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/web/script/thirdplugins/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdemo/src/main/java/DBConn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdemo/src/main/java/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/com/whc/conn/DBConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/com/whc/conn/DBConn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/com/whc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/com/whc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/check.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/doAddUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/doAddUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/pass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/com/whc/conn/DBConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/com/whc/conn/DBConn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/com/whc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/com/whc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/com/whc/conn/DBConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/com/whc/conn/DBConn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/com/whc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/com/whc/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/Failure.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/failure.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/check.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/doAddUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/doAddUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/admin/pass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/store/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="cf618123-2c43-4ecc-8f12-e621234b679f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -547,7 +425,7 @@
       <workItem from="1592871724200" duration="6741000" />
       <workItem from="1592912915439" duration="4000" />
       <workItem from="1593150442629" duration="31000" />
-      <workItem from="1593150492245" duration="720000" />
+      <workItem from="1593150492245" duration="1063000" />
     </task>
     <servers />
   </component>
@@ -634,54 +512,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="194" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592644985709" />
-    <state width="1031" height="201" key="GridCell.Tab.0.bottom" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.0.bottom" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.0.center" timestamp="1592886015474">
+    <state width="1031" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.0.center" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592886015474" />
-    <state width="1031" height="201" key="GridCell.Tab.0.left" timestamp="1592886015474">
+    <state width="1031" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.0.left" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592886015474" />
-    <state width="1031" height="201" key="GridCell.Tab.0.right" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.0.right" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.1.bottom" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.1.bottom" timestamp="1593151405688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.1.center" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593151405688" />
+    <state width="1031" height="200" key="GridCell.Tab.1.center" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.1.left" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.1.left" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.1.right" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.1.right" timestamp="1593151405687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.2.bottom" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593151405687" />
+    <state width="1031" height="200" key="GridCell.Tab.2.bottom" timestamp="1593151405688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.2.center" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593151405688" />
+    <state width="1031" height="200" key="GridCell.Tab.2.center" timestamp="1593151405688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.2.left" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593151405688" />
+    <state width="1031" height="200" key="GridCell.Tab.2.left" timestamp="1593151405688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
-    <state width="1031" height="201" key="GridCell.Tab.2.right" timestamp="1592886015475">
+    <state width="1031" height="200" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593151405688" />
+    <state width="1031" height="200" key="GridCell.Tab.2.right" timestamp="1593151405688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="201" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592886015475" />
+    <state width="1031" height="200" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593151405688" />
     <state width="1024" height="202" key="GridCell.Tab.3.bottom" timestamp="1592573252863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

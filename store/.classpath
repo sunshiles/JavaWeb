@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Tomcat 8.5.51"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql-connector-java-5.1.47-bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jsmartcom_zh_CN"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

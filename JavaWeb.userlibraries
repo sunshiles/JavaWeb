@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="annotations-api">
+    <archive path="D:/DevTools/Tomcat 8.5/lib/annotations-api.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/catalina-ant.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/catalina-ha.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/catalina-storeconfig.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/catalina-tribes.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/catalina.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/ecj-4.6.3.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/el-api.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/jasper-el.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/jasper.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/jaspic-api.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/jsp-api.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/servlet-api.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-api.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-coyote.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-dbcp.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-jdbc.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-jni.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-util-scan.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-util.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/tomcat-websocket.jar" />
+    <archive path="D:/DevTools/Tomcat 8.5/lib/websocket-api.jar" />
+  </library>
+  <library name="jsmartcom_zh_CN">
+    <archive path="D:/Project/JavaWeb/store/web/WEB-INF/lib/jsmartcom_zh_CN.jar" />
+  </library>
+  <library name="mysql-connector-java-5.1.47-bin">
+    <archive path="D:/DevTools/mysql-8.0.19-winx64/mysql-connector-java-5.1.47-bin.jar" />
+  </library>
+  <library name="servlet-api">
+    <archive path="D:/DevTools/Tomcat 8.5/lib/servlet-api.jar" />
+  </library>
+</eclipse-userlibraries>
+
